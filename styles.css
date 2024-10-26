@@ -5,6 +5,19 @@ body {
 
 .avatar {
     width: 150px;
+    box-shadow: 2px;
+}
+
+.linkedin:link {
+    color: #faf0dc;
+}
+
+.linkedin:visited {
+    color: #ffff;
+}
+
+.linkedin:hover {
+    color: #faf0dc;
 }
 
 .card {
@@ -17,6 +30,10 @@ body {
     background: #90be6d;
     color: #ffff;
     border-bottom: 6px solid #43aa8b;
+}
+
+.card:hover {
+    background: #7BA25C;
 }
 
 .border-blue {
